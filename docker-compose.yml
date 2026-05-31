@@ -1,0 +1,7 @@
+services:
+  pokemon-team-planner:
+    build: .
+    container_name: pokemon-team-planner
+    restart: unless-stopped
+    ports:
+      - "8080:80"
